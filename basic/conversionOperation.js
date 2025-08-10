@@ -48,4 +48,4 @@ console.log(1 + "2" + 3 + 4);  // " 1234"
 console.log(1 + 2 + 3 + 4);    // 10                                                                                                    
 
 
-// Compression of data types
+// Compression of data types time : 1:29:00
