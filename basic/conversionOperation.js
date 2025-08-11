@@ -50,6 +50,11 @@ console.log(1 + 2 + 3 + 4);    // 10
 
 // ***************************************Compression of data types *********************************************
 
+let num = 10
+let str = "jitendra"
+let bool = true
+let obj = { name: "jitendra" }
+let arr = [1, 2, 3, 4]
 
 
 
