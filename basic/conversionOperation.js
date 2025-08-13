@@ -61,12 +61,24 @@ console.log(typeof bool);   // boolean
 console.log(typeof obj);    // object
 console.log(typeof arr);    // object   
 
-if(0) {
-    console.log("Condition is true");  //Condition is true
-} else {
-    console.log("Condition is false");
-}
+console.log(null > 0);       // false
+console.log(null == 0);      // false
+console.log(null >= 0);      // true
 
+console.log(false < 0);       // false
+console.log(false == 0);      // true
+console.log(false === 0);     // false
+console.log(false > 0);       // false
+console.log(false >= 0);      // true
+console.log(false < "0");     // false
+console.log(false == "0");    // true
+console.log(false === "0");   // false
+console.log(false > "0");     // false
+console.log(false >= "0");    // true
 
-// ********************************OPERATIONS*******************************
+console.log(undefined > 0);      // false
+console.log(undefined == 0);     // false
+console.log(undefined === 0);    // false
+console.log(undefined < 0);      // false
+console.log(undefined >= 0);     // false
 
