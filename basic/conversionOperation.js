@@ -19,10 +19,10 @@ console.log(valueInNumber2)         //NaN
 
 // Convert number to string
 
-// let someNumber = 123
-// let someString = String(someNumber)
-// console.log(someString);            // "123"
-// console.log(typeof someString);     // string
+let someNumber = 123
+let someString = String(someNumber)
+console.log(someString);            // "123"
+console.log(typeof someString);     // string
 
 
 // ***************************************** Operations**********************************************
@@ -61,4 +61,12 @@ console.log(typeof bool);   // boolean
 console.log(typeof obj);    // object
 console.log(typeof arr);    // object   
 
+if(0) {
+    console.log("Condition is true");  //Condition is true
+} else {
+    console.log("Condition is false");
+}
+
+
+// ********************************OPERATIONS*******************************
 
