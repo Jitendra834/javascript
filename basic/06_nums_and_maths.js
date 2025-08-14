@@ -26,4 +26,4 @@ console.log(Math.min(4, 2, 8, 6)) // 2
 console.log(Math.max(4, 2, 8, 6)) // 8
 console.log(Math.random()) // Random number between 0 and 1  this is use in DICE Game 
 console.log(Math.floor((Math.random()*10)+1)) // Random number between 1 and 10
-
+ 
