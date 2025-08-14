@@ -5,4 +5,12 @@ console.log(myDate.toTimeString());       // Current time
 
 console.log(typeof myDate)                 // object
 
-let 
+let  createDate = new Date(2025,8,14)
+console.log(createDate.toString());       // Fri Sep 14 2025 00:00:00 GMT+0530 (India Standard Time)
+console.log(createDate.toDateString());   // Fri Sep 14 2025
+console.log(createDate.toTimeString());   // 00:00:00 GMT+0530 (India Standard Time)
+console.log(createDate.getFullYear());    // 2025
+console.log(createDate.getMonth());       // 8
+console.log(createDate.getDate());        // 14 
+
+console.log(createDate.toLocaleTimeString());         // 5 (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
