@@ -14,3 +14,7 @@ console.log(createDate.getMonth());       // 8
 console.log(createDate.getDate());        // 14 
 
 console.log(createDate.toLocaleTimeString());         // 5 (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
+
+let myTimeStamp = new Date()
+console.log(myTimeStamp.getTime());       // Current timestamp in milliseconds
+console.log(createDate.getTime());        // Timestamp for the specified date in milliseconds
